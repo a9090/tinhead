@@ -1,0 +1,18 @@
+{
+    "name": "tinhead/core",
+    "version": "0.1.0",
+
+    "autoload": {
+        "psr-4": {
+          "tinhead\\":                  "src/",
+          "tinhead\\error\\":           "src/error",
+          "tinhead\\response\\":        "src/response",
+          "tinhead\\controller\\":      "src/controller",
+          "tinhead\\serialization\\":   "src/serialization"
+        }
+    },
+
+    "require-dev": {
+        "phpunit/phpunit": "6.2.2"
+    }
+}
