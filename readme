@@ -1,0 +1,13 @@
+The tinhead project
+===================
+
+Directories contain:
+/public: Client side implementation and the bridge.php which has to be public accessible by clients.
+
+/src: Server side implementation. Files should not be public accessible.
+
+/test: All server side unit and integration tests.
+
+/vendor: Third party software used for the server implementation or runtime.
+
+
